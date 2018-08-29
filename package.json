@@ -1,0 +1,31 @@
+{
+  "name": "app-linn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -s server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "@linniaprotocol/linnia-js": "^0.1.4",
+    "i": "^0.3.6",
+    "ipfs-api": "^24.0.1",
+    "next": "^6.1.1",
+    "next-routes": "^1.4.2",
+    "npm": "^6.4.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "semantic-ui-react": "^0.82.3",
+    "web3": "^1.0.0-beta.35"
+  }
+}
